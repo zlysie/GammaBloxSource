@@ -14,3 +14,5 @@ I cannot guarantee that this will result in a great experience with everything n
 Lastly,
 
 ## MAKE SURE TO CREDIT ME FOR THE SOURCE IF YOU DO HAPPEN TO REHOST GAMMA / MODIFY IT FOR YOUR OWN REVIVAL.
+
+I just realised that windows may have merged some folders around sooo sorry not sorry!!
