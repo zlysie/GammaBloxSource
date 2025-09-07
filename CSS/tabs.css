@@ -1,0 +1,32 @@
+/* default layout */
+.ajax__tab_default .ajax__tab_header {white-space:normal !important}
+.ajax__tab_default .ajax__tab_outer  {display:-moz-inline-box;display:inline-block}
+.ajax__tab_default .ajax__tab_inner  {display:-moz-inline-box;display:inline-block}
+.ajax__tab_default .ajax__tab_tab    {overflow:hidden;text-align:center;display:-moz-inline-box;display:inline-block}
+
+/* xp theme */
+.ajax__tab_xp .ajax__tab_header {font-family:verdana,tahoma,helvetica;font-size:11px;background:url('/images/Tabs.Line.gif') repeat-x bottom;}
+.ajax__tab_xp .ajax__tab_outer  {padding-right:4px;background:url('/images/Tabs.Right.gif') no-repeat right;height:21px;}
+.ajax__tab_xp .ajax__tab_inner  {padding-left:3px;background:url('/images/Tabs.Left.gif') no-repeat;}
+.ajax__tab_xp .ajax__tab_tab    {height:13px;padding:4px;margin:0px;background:url('/images/Tabs.Background.gif') repeat-x;}
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_outer  {cursor:pointer;background:url(WebResource.axd?d=fqg6JqnlZPgdaJyNML-Z7s6mRFbhq0X2ki8Yv1s1MwnSZ32a7c2JB32m4HhxDeAmjhDDYvshV-hPCzp7gaK7vALh-_d_Bv92OIlptJBB0bBTslk23iEMkZDi3t7syuR5Jdo5aY76f9zwyxT03gMFS1yVNso1&t=636134662015039228) no-repeat right;}
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_inner  {cursor:pointer;background:url(WebResource.axd?d=5TZBLVc6ACMksAUMT6Fidqc2GF-Jj2xx0z-fxRFFT4nBPWlUrcYC0TwP4RzvCbhWifmTjLK9w0l1ye7VGln6C2HKldK23BfD9GcncLOTarN3J1EG_YzzTPxeR0gDDxb71XGIlPHGVXRPnuN6fgQfbnV12rs1&t=636134662015039228) no-repeat;}
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_tab    {cursor:pointer;background:url(WebResource.axd?d=Lim-LhiJd-K89QtbNdtHyajnqpMSJL5N1OexWNLi7VAVV26j61iu2apYm8Z5x6gIySYNehBW4OJk72Oe3A3Gs1ZZei9mTqxpq2VRDlRNHJdweafIWcs6Qr-t-VxoBn4mmkKYiXekqa__WE8itdm82It24YA1&t=636134662015039228) repeat-x;}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_outer {background:url('/images/Tabs.ActiveRight.gif') no-repeat right;}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner {background:url('/images/Tabs.ActiveLeft.gif') no-repeat;}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_tab   {background:url('/images/Tabs.Active.gif') repeat-x;}
+.ajax__tab_xp .ajax__tab_disabled {color: #A0A0A0;}
+.ajax__tab_xp .ajax__tab_body     {font-family:verdana,tahoma,helvetica;font-size:10pt;border:1px solid #999999;border-top:0;padding:8px;background-color:#ffffff;}
+
+/* scrolling */
+.ajax__scroll_horiz {overflow-x:scroll;} 
+.ajax__scroll_vert  {overflow-y:scroll;}
+.ajax__scroll_both  {overflow:scroll;}
+.ajax__scroll_auto  {overflow:auto;}
+
+/* plain theme */
+.ajax__tab_plain .ajax__tab_outer  {text-align: center; vertical-align: middle; border:2px solid #999999;}
+.ajax__tab_plain .ajax__tab_inner  {text-align: center; vertical-align: middle;}
+.ajax__tab_plain .ajax__tab_body   {text-align: center; vertical-align: middle;}
+.ajax__tab_plain .ajax__tab_header {text-align: center; vertical-align: middle;}
+.ajax__tab_plain .ajax__tab_active .ajax__tab_outer {background:#FFFFE1;}

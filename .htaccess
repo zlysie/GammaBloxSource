@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on 
+    RewriteCond %{REQUEST_FILENAME} !-d 
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.+?)/?$ $1.php [L]
+</IfModule>
+
+LimitRequestBody 268435456
+DirectoryIndex index.php index.html Default.aspx Default.aspx.php
