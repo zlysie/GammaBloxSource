@@ -3,7 +3,7 @@
 Hi, I'm putting this out there since I don't really care enough about this anymore and I'm definitely not coming back to work on it.
 I've included the database schema and rendermanager (Requires Java 8)
 
-I don't have source right now for the rendermanager so it will just be the jar.
+I don't have source right now for the rendermanager so it will just be the jar which is included in the GCC archive.
 
 I've included the client and rccservice used during production. Please be aware that because it's 2008, it's insecure regardless of how many patches I've done so I'd recommend you to enforce it better or something.
 
